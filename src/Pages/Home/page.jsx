@@ -1,4 +1,5 @@
-import Header from "./Components/Default_c/Header"
+
+import Header  from '../../Components/Default_c/Header'
 
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
   return (
 <>
 
-{/* <Header/> */}
+<Header/>
 
 
 <div className='Home_filter'>

@@ -1,0 +1,131 @@
+@media screen and (max-width: 700px) {
+    .header_mid{
+        display: none !important;
+    }
+    .right_header_users_info{
+        display: none;
+    }
+    .mob_btn{
+        display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+    z-index: 1;
+    }
+
+    .stays_header_text{
+        font-size: 65px !important;
+        
+    
+      }.g_filter{
+        width: 50%
+      }.ceck_days{
+        font-size: 12px;
+      
+      }.g_filter:nth-child(2){
+        display: none;
+      }
+     
+      .location{
+        font-size: 15px;
+      }.search_g_l{
+        width: 30px !important;
+        height: 30px !important;
+      }
+      .header_users_login .active{
+        display: block;
+        position: absolute;
+        top: 70px;
+        right:0px;
+      bottom: 0px;
+      width: 100%;
+        height:auto;
+        background: white;
+        z-index: 20;
+        animation-name: mob_menu;
+        animation-duration: 0.5s;
+        background-position: top;
+         }
+         @keyframes mob_menu {
+        0%{
+          height: 0%;
+          opacity: 0;
+        }
+
+        100%{
+          height: auto;
+          opacity: 1;
+          background-position: bottom;
+        }
+         }
+
+
+         /* login box && sign up box */
+
+         .log_header{
+          font-size: 55px;
+          font-weight: bold;
+          margin: 12px 0px;
+          background: linear-gradient(-45deg, rgb(45, 143, 255), rgb(189, 48, 255), rgb(11, 117, 255), rgb(31, 173, 255));
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      
+        }
+
+        .l-desk-left{
+          display: none !important;
+        }
+
+        .l-desk .client_log{
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+     border: none !important;
+         height: 100vh;
+          padding: 7px;
+          width:100% !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            }
+
+
+
+            .d-menubar{
+         display: flex;
+         flex-direction: column;
+           
+   
+            }.d-menubar .navlink{
+              text-decoration: none;
+              color: black;
+              padding:9px 34px;
+            }
+            .d-menubar .navlink:hover{
+      
+              background: #ddd;
+              color: rgb(36, 36, 36);
+              border-radius: 12px;
+              color:#205bff;
+            }
+            
+            
+            
+            .d-menubar .auth{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              border-bottom: 1px solid #ddd;
+              align-items: center;
+            }
+            .d-menubar .auth a{
+      text-decoration: none;
+      padding: 5px;
+      font-weight: bold;
+            }
+
+
+
+    
+      }
